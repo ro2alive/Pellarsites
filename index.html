@@ -13,16 +13,19 @@
                 <li><a href="Apps.html">Apps</a></li>
                 <li><a href="Games.html">Games</a></li>
                 <li><a href="Prozys.html">Prozys</a></li>
-                <li><a href="Chatroom.html">Chatroom</a></li>
-                <li><a href="Site.html">Sites</a></li>    
+                <li><a href="Down Page.html">Chatroom</a></li>
+                <li><a href="Site.html">Sites</a></li>  
+                <li><btn class="aboutblank" onclick="aboutblankopen()">about:blank</btn></li>   
             </ul>
         </div>
         <div class="content">
             <h1>Pellarsites</h1>
             <h2>Prozys, Games, and More</h2>
-            
-            
-            
+            <script>
+                function aboutblankopen() {
+                  window.open('about:blank').document.write(`<head><title>Google</title></head><body><style>body {margin: 0;}</style><iframe style="border: none;" src="https://pellarsites-github-io.vercel.app/" width="100%" height="100%"></body>`);
+                };
+              </script>   
         </div>
     </div>
 </body>

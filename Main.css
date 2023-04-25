@@ -18,7 +18,7 @@
     align-items: center;
     justify-content: space-between;
 }
-.logo{
+.logo, .aboutblank{
     width: 120px;
     cursor: pointer;
 }
@@ -27,7 +27,7 @@
     display: inline-block;
     margin: 0 20px;
 }
-.navbar ul li a{
+.navbar ul li a, .aboutblank{
     text-decoration: none;
     color: #000000;
     text-transform: uppercase;
